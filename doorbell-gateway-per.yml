@@ -16,5 +16,7 @@ management:
     routes:
       enabled: true # 默认为true，可以省略
       
-spring.redis.host=127.0.0.1
-spring.redis.port=6379
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
