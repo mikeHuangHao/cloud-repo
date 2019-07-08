@@ -1,1 +1,6 @@
 name: doorbell-gateway-dev.yml
+zuul:
+  routes:
+    uac:
+      path: /myUac/**
+      serviceId: doorbell-provider-uac
