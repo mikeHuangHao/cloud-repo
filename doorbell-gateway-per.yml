@@ -4,7 +4,9 @@ zuul:
     uac:
       path: /myUac/**
       serviceId: doorbell-provider-uac
-# ========添加配置=======    
+      sensitiveHeaders:
+      
+# ========添加配置======= 查看全部路由要加这些 http://127.0.0.1:1001/actuator/routes
 management:
   endpoints:
     web:
