@@ -1,4 +1,4 @@
-env: devs
+env: devs1
 #  context-path: /dev
 spring:
   datasource: # 数据库连接池配置
